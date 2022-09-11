@@ -1,5 +1,5 @@
 {% set name = "flake8-markdown" %}
-{% set version = "0.3.0" %}
+{% set version = "0.4.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/flake8-markdown-{{ version }}.tar.gz
-  sha256: 5b54f143c9568da11a9d74ce5e580e96685fe758a14933f140c6d7006041fafd
+  sha256: c1d1f2c5055df2d6af22597aca401e6693a3d1389d06d2105272cb80478e686c
 
 build:
   number: 0
