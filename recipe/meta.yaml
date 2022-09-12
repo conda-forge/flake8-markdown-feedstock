@@ -16,17 +16,16 @@ build:
   entry_points:
     - flake8-markdown = flake8_markdown:main
   script:
-    # Removing pyproject.toml here due to pip bug
-    - {{ PYTHON }} -c "__import__('os').unlink('pyproject.toml')"
     - {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
     - pip
-    - python >=3.6
+    - poetry >=1.0.0
+    - python >=3.7
   run:
-    - flake8 >=3.0,<5.0
-    - python >=3.6
+    - flake8 >=5.0
+    - python >=3.7
 
 test:
   imports:
