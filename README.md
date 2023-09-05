@@ -1,11 +1,11 @@
-About flake8-markdown
-=====================
+About flake8-markdown-feedstock
+===============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/flake8-markdown-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/johnfraney/flake8-markdown
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/flake8-markdown-feedstock/blob/main/LICENSE.txt)
 
 Summary: Lints Python code blocks in Markdown files using flake8
 
