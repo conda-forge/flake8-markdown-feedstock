@@ -21,11 +21,12 @@ build:
 requirements:
   host:
     - pip
-    - poetry >=1.0.0
-    - python >=3.7
+    - poetry >=1.1.0
+    - poetry-core
+    - python {{ python_min }}
   run:
-    - flake8 >=5.0
-    - python >=3.7
+    - flake8 >=5.0.0
+    - python >={{ python_min }}
 
 test:
   imports:
@@ -35,6 +36,7 @@ test:
     - flake8-markdown --help
   requires:
     - pip
+    - python {{ python_min }}
 
 about:
   home: https://github.com/johnfraney/flake8-markdown
